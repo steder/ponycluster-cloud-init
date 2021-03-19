@@ -2,4 +2,4 @@
 
 set -e -u -x 
 
-cp -r scripts/* /var/lib/cloud/scripts/
+cp -v scripts/per-boot/*.sh /var/lib/cloud/scripts/per-boot/
